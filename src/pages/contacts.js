@@ -4,13 +4,14 @@ import styled from 'styled-components'
 
 const Container = styled.div`
   padding: 25px;
-  border: 1px solid palevioletred;
+  border: 1px solid #00f;
 `
 
 export default () => {
   return (
     <Container>
-      <h1>Home</h1>
+      <h1>Contacts</h1>
+      <Link to='/'>Home</Link>
     </Container>
   )
 }
