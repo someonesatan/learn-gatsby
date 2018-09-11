@@ -1,4 +1,5 @@
 import React from 'react'
+
 import styledNormalize from 'styled-normalize'
 import styled, { injectGlobal } from 'styled-components'
 
@@ -8,28 +9,31 @@ injectGlobal`
   ${styledNormalize}
 
   @font-face {
-    font-family: "Montserrat-regular";
-    src: url("../fonts/Montserrat-Regular.eot") format("embedded-opentype");
-    src: url("../fonts/Montserrat-Regular.woff") format("embedded-opentype");
-    src: url("../fonts/Montserrat-Regular.woff2") format("embedded-opentype");
+    font-family: 'montserrat';
+    font-weight: 400;
+    src: local('montserrat-regular'), url(static/fonts/Montserrat-Regular.eot) format('eot');
+    src: local('montserrat-regular'), url(static/fonts/Montserrat-Regular.woff) format('woff');
+    src: local('montserrat-regular'), url(static/fonts/Montserrat-Regular.woff2) format('woff2');
   }
 
   @font-face {
-    font-family: "Montserrat-bold";
-    src: url("../fonts/Montserrat-Bold.eot") format("embedded-opentype");
-    src: url("../fonts/Montserrat-Bold.woff") format("embedded-opentype");
-    src: url("../fonts/Montserrat-Bold.woff2") format("embedded-opentype");
+    font-family: 'montserrat';
+    font-weight: 700;
+    src: local('montserrat-regular'), url(static/fonts/Montserrat-Bold.eot) format('eot');
+    src: local('montserrat-regular'), url(static/fonts/Montserrat-Bold.woff) format('woff');
+    src: local('montserrat-regular'), url(static/fonts/Montserrat-Bold.woff2) format('woff2');
   }
 
   @font-face {
-    font-family: "Montserrat-semibold";
-    src: url("../fonts/Montserrat-SemiBold.eot") format("embedded-opentype");
-    src: url("../fonts/Montserrat-SemiBold.woff") format("embedded-opentype");
-    src: url("../fonts/Montserrat-SemiBold.woff2") format("embedded-opentype");
+    font-family: 'montserrat';
+    font-weight: 600;
+    src: local('montserrat-regular'), url(static/fonts/Montserrat-SemiBold.eot) format('eot');
+    src: local('montserrat-regular'), url(static/fonts/Montserrat-SemiBold.woff) format('woff');
+    src: local('montserrat-regular'), url(static/fonts/Montserrat-SemiBold.woff2) format('woff2');
   }
 
   body {
-    font-family: Montserrat-regular, sans-serif;
+    font-family: montserrat;
   }
 `
 

@@ -14,8 +14,6 @@ const Container = styled.div`
 `
 const Pages = styled.div`
   a {
-    /* font-weight: 600; */
-    font-family: Montserrat-semibold, sans-serif;
     text-decoration: none;
     font-size: 16px;
     color: #2d2d2d;
